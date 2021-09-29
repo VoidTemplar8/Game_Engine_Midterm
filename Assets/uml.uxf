@@ -1,0 +1,25 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>60</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>MonoBehaviour
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>110</y><w>210</w><h>190</h></coordinates><panel_attributes>Ball &lt;&lt;GameObject&gt;&gt;
+--
++ rb : Rigidbody
+- moveSpeed : float
+- jumpForce : float
+- dirX : float
+-dirZ : float
+--
+Start() : void
+Update() : void
+- FixedUpdate() : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>20</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>278</x><y>110</y><w>210</w><h>90</h></coordinates><panel_attributes>Transform &lt;&lt;Component&gt;&gt;
+--
++ Position : Vector3
++ Rotation: Vector3
++ Scale: Vector3</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>140</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>278</x><y>230</y><w>210</w><h>60</h></coordinates><panel_attributes>Mesh Filter &lt;&lt;Component&gt;&gt;
+--
++ mesh: Mesh</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>198</x><y>250</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>350</y><w>210</w><h>190</h></coordinates><panel_attributes>Sphere Collider &lt;&lt;Component&gt;&gt;
+--
++ material: Material
++ center: Vector3
++ size: Vector3
+--
++ enable(): bool
++ isTrigger(): bool</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>88</x><y>290</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
