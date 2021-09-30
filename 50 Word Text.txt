@@ -1,0 +1,7 @@
+50 Word Scope Task
+
+Since I am not a programmer, I will need to do something simple. 
+I would make a 2.5D level with just jumping and obstacles functions. 
+The Win Condition is to get to an area with a green box. There is no lose condition.
+Since I feel under skilled, I may as well at least include a menu to this as well. 
+I also feel like making a toggle on gravity. I could implement into the game, but it isn't completely, yet. 
